@@ -1,4 +1,7 @@
 #!/usr/bin/make -f
 
+# Don't build examples or tools
+export DH_GOLANG_EXCLUDES := examples/ tools/
+
 %:
-	dh $@
+	dh $@ --builddirectory=_build --buildsystem=golang
