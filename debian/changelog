@@ -1,5 +1,20 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-ibm-sarama (1.43.3-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream release
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Mathias Gibbens <gibmat@debian.org>  Sun, 18 Aug 2024 18:01:09 +0000
+
+golang-github-ibm-sarama (1.43.2-1) unstable; urgency=medium
+
+  * New upstream release
+  * d/control:
+    - Update Standards-Version to 4.7.0 (no changes needed)
+    - Update list of Build-Depends and Depends
+
+ -- Mathias Gibbens <gibmat@debian.org>  Fri, 26 Apr 2024 00:06:23 +0000
+
+golang-github-ibm-sarama (1.43.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #1067554)
+
+ -- Mathias Gibbens <gibmat@debian.org>  Wed, 10 Apr 2024 01:25:31 +0000
